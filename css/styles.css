@@ -10,6 +10,11 @@ header {
     height: 60px;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 header nav {
     display: flex;
     justify-content: flex-end;
@@ -24,6 +29,23 @@ header .nav-right-section {
     align-items: center;
 }
 
-nav .nav-right-section {
-    
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #000000;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url("https://lh3.googleusercontent.com/proxy/8CWSFf9KGYvNbCYISfT-YyRcSbfbV38s1e8NOGRH0yVlYiKdsKEZUPxz6nHv8S2LpjcjqTHh4Dj0DDVz5Hq_7IRozGfUDyJAJF3d5-jQSEOlAht5fr-HOVOJZgDrxfFOB-fhBTS91JTHgGgzsani8ZTDp7hftjHplEFbcBa5");
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    width: 35px;
+    height: 30px;
+    margin-left: 10px;
 }
